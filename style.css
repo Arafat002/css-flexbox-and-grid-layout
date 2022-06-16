@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+body {
+    background-color:black;
+    width: auto;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.white-bg {
+    margin-top: 50px ;
+    margin-right: -50px;
+    width: 1000px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.Sedans {
+    width: 10em;
+    height: 15em;
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
+    border-radius: .6em 0 0 .6em;
+    padding: 2em;
+}
+
+.suvs {
+    width: 10em;
+    height: 15em;
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.Luxury {
+    width: 10em;
+    height: 15em;
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 .6em .6em 0;
+    padding: 2em;  
+}
+
+
+
+
+h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+p , button {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 10px;
+    margin-bottom: 4em;
+    line-height: 1.2em;
+}
+
+.Luxury p {
+    margin-bottom: 2.7em;
+}
+
+a{
+    text-decoration: none;
+    padding: 30px;
+}
+.grid-page button{
+    border-radius: 50px;
+    height: 40px;
+    margin-bottom :400px;
+    background-color:rgb(8, 122, 8);
+    border: none;
+}
+
+.B-sedans {
+    width: 10em;
+    background-color: white;
+    border: none;
+    padding: 1em;
+    border-radius: 2em;
+    margin-top: -10px;
+    color: hsl(31, 77%, 52%);
+}
+
+.B-suvs {
+    width: 10em;
+    background-color: white;
+    border: none;
+    padding: 1em;
+    border-radius: 2em;
+    margin-top: -10px;
+    color: hsl(184, 100%, 22%);
+}
+.B-lux {
+    width: 10em;
+    background-color: white;
+    border: none;
+    padding: 1em;
+    border-radius: 2em;
+    color: hsl(179, 100%, 13%);
+}
+
+
+.B-sedans:active {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: .5px solid hsla(0, 0%, 100%, 0.75);
+}
+
+.B-suvs:active {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: .5px solid hsla(0, 0%, 100%, 0.75);
+}
+
+.B-lux:active {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: .5px solid hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+.attribution { 
+    position: absolute;
+    bottom: 0;
+    font-size: 0.75rem;
+    line-height: 20px;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
